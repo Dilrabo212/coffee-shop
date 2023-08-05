@@ -1,4 +1,5 @@
-import img2 from './component/img/img2'
+import img2 from '../img/img2.png'
+import './card.css'
 
 export function CardSection() {
     return (

@@ -1,0 +1,109 @@
+.price-section__wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6534px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #F6F2EE;
+    padding-top: 100px;
+}
+.Popular-Product{
+    width: 135px;
+    height: 41px;
+    flex-shrink: 0;
+    background: #232020;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    margin-right: 24px;
+    cursor: pointer;
+    margin-left: 40%;
+
+  
+   
+   
+}
+.price-section__h1{
+    display: flex;
+    height: 67px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: ZCOOL XiaoWei;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 2.2px;
+    margin-right: 50px;
+}
+.price-section__container{
+    display: flex;
+    justify-content: space-between;
+}
+.rite{
+    width: 50%;
+}
+.left{
+    width: 50%;
+}
+.price-section__container-wrp {
+    display: flex;
+   
+    margin-left: 0px;
+    padding-inline-start:0px;
+    list-style: none;
+
+}
+.coffe-img{
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    background: url(../img/price1.png), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    
+}
+.coffee-name{
+    display: flex;
+/* width: 300px; */
+height: 17px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #232020;
+font-family: ZCOOL XiaoWei;
+font-size: 30px;
+
+line-height: 65px; 
+letter-spacing: 1.2px;
+width: 475px;
+height: 114px;
+flex-shrink: 0;
+width: 400px;
+height: 114px;
+flex-shrink: 0;
+border:1px solid #232020;
+padding-top: 15px;
+padding-left: 100px;
+position: absolute;
+z-index: 1;
+margin-left: 100px;
+margin-top: 10px;
+
+
+}
+.coffee-mony{
+margin-left: 80%;
+color: #D48A5C;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+letter-spacing: 0.8px;
+}

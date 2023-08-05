@@ -1,0 +1,27 @@
+.span__coffe-icon{
+    width: 28.364px;
+  height: 34.191px;
+  display:inline block;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+  }
+  
+  .site-header__header-wrapper li{
+    display: flex;
+  width: 100px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+    margin-right: 10px;
+    color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  
+  }
