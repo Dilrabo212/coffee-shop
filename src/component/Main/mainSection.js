@@ -1,6 +1,7 @@
 
 import img1 from '../img/img1.png'
 import './main.css'
+import '../../index.css'
 export function MainSection() {
     return (
 

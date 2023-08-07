@@ -1,5 +1,8 @@
 import './price.css'
 import '../../index.css'
+import price1 from '../img/price1.png'
+import price2 from '../img/price2.png'
+import price3 from '../img/price3.png'
 export const Price = () => {
     return <>
         <div className='price-section__wrap'>
@@ -10,19 +13,19 @@ export const Price = () => {
 
                     <div className='left'>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price1} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>
                         </ul>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price2} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>
                         </ul>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price3} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>
@@ -32,19 +35,19 @@ export const Price = () => {
 
                     <div className='rite'>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price1} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>
                         </ul>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price2} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>
                         </ul>
                         <ul className='price-section__container-wrp'>
-                            <li className='coffe-img'><img src="./img/price1.png" alt='' /></li>
+                            <li ><img className='img' src={price3} /></li>
                             <li className='coffee-name'>Vicaragua Coffee Beans
                                 <li className='coffee-mony'>$29</li>
                             </li>

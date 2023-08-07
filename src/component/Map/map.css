@@ -1,0 +1,55 @@
+.section-map__wrapper{
+width: 100%;
+padding-bottom: 50px;
+
+}
+.section-map__map-img{
+    width: 50%;
+    height: 391.953px;
+    background: url(../img/map.png), lightgray 50% / cover no-repeat;
+}
+.form-map__text-inform{
+    text-align: center;
+    width: 50%;
+    height: 392px;
+    background: #FFF;
+}
+.text-inform__h3{
+    display: flex;
+   justify-content: center;
+    padding-top: 10px;
+    color: #D48A5C;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.text-inform__h1{
+    display: flex;
+    justify-content: center;
+    color: #1C1A1A;
+    font-family: ZCOOL XiaoWei;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 1.16px;
+}
+.input__input{
+    border: none;
+    width: 362px;
+    height: 50px;
+    background: #F4F1EE;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.button{
+    width: 144px;
+    height: 30px;
+    background: #232020;
+   margin-bottom: 10px;
+   color: white;
+}
+.icons{
+    position: relative;
+    right: 50px;
+    top: 5px;
+}

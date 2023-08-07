@@ -1,22 +1,28 @@
 .next__wrapper{
-
-
+  background-image: url(../img/img3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   
   }
-  
+  .container{
+    width: 1440px;
+  }
   .next__wrapper-text{
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     height: 729px;
   
   
   
   }
   .next__wtapper-text-content{
-    background-image: url(../img/img3.png);
+    /* background-image: url(../img/img3.png);
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100%; */
     height: 729px;
   flex-shrink: 0;
   padding-top: 250px;

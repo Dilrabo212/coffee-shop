@@ -1,0 +1,94 @@
+.section-coffee__wpapper{
+    justify-content: space-between;
+    width: 100%;
+    height: 674px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.coffee-section__info-text{
+align-items: center;
+width: 70%;
+}
+.section-coffe__h1{
+
+    width: 700px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #232020;
+    font-family: ZCOOL XiaoWei;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 1.8px;
+    padding-bottom: 33px;
+    padding-top: 100px;
+}
+.section-coffee__p{
+ padding-bottom: 10px;
+/* padding-top: 40px; */
+width: 676px;
+height: 59px;
+flex-direction: column;
+justify-content: start;
+flex-shrink: 0;
+color: #404040;
+font-family: Open Sans;
+font-size: 18px;
+/* font-weight: 400; */
+line-height: 20px; 
+letter-spacing: 0.72px;
+}
+.section-coffee__pp{
+ display: flex;
+width: 641px;
+height: 54px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0; 
+color: #141313;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.64px;
+}
+.section-coffee__button{
+    margin-top: 42px;
+    width: 135px;
+    height: 41px;
+    flex-shrink: 0;
+    background: #232020;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    margin-right: 24px;
+    cursor: pointer;
+    
+}
+.coffee-section__info-image{
+    padding: 37px 179px 37px 0px;
+    position: relative;
+    width: 366px;
+
+}
+.beck-image__elipse{
+    border-style: none;
+    z-index: 1;
+    width: 366px;
+    height: 600px;
+    border-radius: 60%;
+    -webkit-box-shadow: -25px 17px 8px 8px rgba(0, 2, 4, 0.87);
+    -moz-box-shadow: -25px 17px 8px 8px rgba(0, 2, 4, 0.87);
+    box-shadow: -25px 17px 8px 8px rgba(0, 2, 4, 0.87);
+    background: linear-gradient(168deg, #7D4934 8.37%, #000 72.28%);
+}
+.image__cofemachine{
+    margin: 113px 30px 80px 45px;
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    background: url(../img/coffeemachine.png), no-repeat;
+}

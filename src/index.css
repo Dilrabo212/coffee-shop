@@ -25,12 +25,13 @@ html{
  padding-right: 165px;
  max-width: 1440px;
  margin-left: 0;
+ /* margin-right: 45px; */
+ margin-right: 0;
  
 }
 .flex{
   display: flex;
   justify-content: space-between;
-  text-align: center;
 }
 
 
